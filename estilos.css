@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(170deg, #f1c40f, #d35400);
+    padding: 10px;
+    
+}
+
+
+#logo-empresa
+{
+    height: 120px;
+    display: flex;
+    text-decoration: none;
+    color: antiquewhite;
+    align-items: center;
+}
+
+
+#logo
+{
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+}
+
+
+#empresa
+{
+    font-size: 40px;
+}
+
+
+nav .link-nav
+{
+    margin: 0 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+
+    font-weight: bold; /*aplica Negrita la texto */
+    
+}
+
+
+nav .link-nav:hover
+{
+    color: brown;
+}
+
+
+
