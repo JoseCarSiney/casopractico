@@ -92,7 +92,7 @@ nav .link-nav:hover
     width: 70px;
     display: block;
     margin: auto;
-    padding: 25px 0px;
+    padding: 15px 0px;
 }
 
 #seccion1
@@ -124,9 +124,10 @@ nav .link-nav:hover
 
 #subtitulo1
 {
+    font-size: 30px;
     text-align: center;
     padding-bottom: 20px;
-    margin-bottom: 45px;
+    margin-bottom: 63px;
 }
 
 .subtemas
@@ -147,6 +148,7 @@ nav .link-nav:hover
     width: 70px;
     display: block;
     margin: auto;
+    padding: 25px 0px;
 }
 
 .subtemas2
@@ -201,6 +203,8 @@ footer
     width: 70px;
     display: block;
     margin: auto;
+    padding: 25px 0px;
+
 }
 
 .subtemas3
