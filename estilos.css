@@ -3,10 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-
+body
+{
+    background: linear-gradient(170deg, #f1c40f, #d35400);
+    height: 228vh;
+    color: white;
+    
+}
 
 header
 {
@@ -60,5 +67,150 @@ nav .link-nav:hover
     color: brown;
 }
 
+#contenedor
+{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
 
+
+#Titulo
+{
+    padding-bottom: 40px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid rgb(255, 81, 0);
+    box-shadow: 5px 5px 5px black;
+}
+
+.imgsec1
+{
+    width: 70px;
+    display: block;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+#seccion1
+{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 1fr 1fr;
+    gap: 0 80px;
+    margin-bottom: 100px;
+}
+
+#articulo1
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#articulo2
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 25px;
+}
+
+#articulo3
+{ 
+   grid-row: 1/3; 
+}
+
+#subtitulo1
+{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 45px;
+}
+
+.subtemas
+{
+    text-align: center;
+}
+
+#Titulo2
+{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 60px;
+    padding: 20px 5px; 
+}
+
+.imgsec2
+{
+    width: 70px;
+    display: block;
+    margin: auto;
+}
+
+.subtemas2
+{
+    text-align: center;
+}
+
+#seccion2
+{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    text-align: justify; 
+    background-color: rgb(255, 208, 0);
+    padding: 20px 5px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px black; 
+
+}
+
+#articulo1sec2
+{
+    padding: 0 100px;
+}
+
+#articulo2sec2
+{
+    padding-left: 90px;
+}
+
+
+footer
+{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#seccion3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0 150px;
+    text-align: justify; 
+    padding-top: 90px;
+}
+
+
+
+.imgsec3
+{
+    width: 70px;
+    display: block;
+    margin: auto;
+}
+
+.subtemas3
+{
+    text-align: center;
+}
+
+
+.imgfooter
+{
+    width: 70px;
+}
 
